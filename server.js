@@ -41,7 +41,7 @@ app.post('/post',async(req,res)=>{
  })
  await user.save()
  console.log(user)
- res.send("YOUR VOTE HAVE BEEN SUBMITTED.THANK YOU")
+ res.send("SORRY. YOUR REQUEST FOR VOTING IS FAILD!")
 })
 app.listen(port,()=>{
  console.log('server started...')
